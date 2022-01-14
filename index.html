@@ -1,64 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="nl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamagotchi</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="author" content="jouw naam">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>H&M</title>
+
+	<link href="styles/style.css" rel="stylesheet">
+	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <body>
+	<header>
+		<nav>
+			<button>Menu</button>
+			<ul>
+				<li><a href="#"><img src="images/inloggen1.png">Inloggen
+					</a></li>
+				<li><a href="dames.html">Dames</a></li>
+				<li><a href="#">Heren</a></li>
+				<li><a href="#">Divided</a></li>
+				<li><a href="#">Baby</a></li>
+				<li><a href="#">Kinderen</a></li>
+				<li><a href="#">H&m home</a></li>
+				<li><a href="#">Sale</a></li>
+				<li><a href="#">Sustainability</a></li>
+			</ul>
+		</nav>
 
-    <main>
+		<img src="images/hmlogo.svg" alt="hm logo">
+	</header>
+	<main>
+		<h1>H&M</h1>
+		<section>
+			<h2>Standaardlevering 2-3 dagen</h2>
+			<audio src="vrachtwagengeluid.mp3">
+		</section>
 
-        <section>
-            <label for="name" id="tekst">Wat is mijn naam?</label>
-            <input type="text" id="name" name="name">
-        </section>
+		<section>
+			<h2>Sharing is always in season</h2>
+			<p>Inspiration is everywhere - from across the street to across the world</p>
+			<img src="images/backgroundhm.jpg" alt="onscherpe achtergrond">
+		</section>
 
+		<section>
+			<a href="dames.html">
+				<h2>All eyes on you</h2>
+				<p>Own the night in party-perfecte items uit onze wintercollectie</p>
+				<img src="images/hmzwart.jpg" alt="zwarte collectie">
+			</a>
+		</section>
 
-        <img src="Images/tamagotchi.png" alt="tamagotchi" id="tamagotchi">
+		<section>
+			<h2>Trending right now</h2>
+			<ul>
+				<li>
+					<h3>Dames</h3>
+					<h4>Jurken</h4>
+					<img src="images/10216.png" alt="Lange beige jurk">
+				</li>
+				<li>
+					<h3>Dames</h3>
+					<h4>Kleding</h4>
+					<img src="images/10244.png" alt="Nieuwe items">
+				</li>
+				<li>
+					<h3>Baby</h3>
+					<h4>Newborn</h4>
+					<img src="images/10237.png" alt="Baby kleertjes">
+				</li>
+				<li>
+					<h3>Heren</h3>
+					<h4>Shirts</h4>
+					<img src="images/10221.png" alt="Beige lang t-shirt">
+				</li>
+				<li>
+					<h3>Dames</h3>
+					<h4>Broeken</h4>
+					<img src="images/10201.png" alt="Zwarte leren broek">
+				</li>
+				<li>
+					<h3>Dames</h3>
+					<h4>Overhemd</h4>
+					<img src="images/10208.png" alt="Blauw overhemd voor dames">
+				</li>
+				<li>
+					<h3>Dames</h3>
+					<h4>Jassen</h4>
+					<img src="images/10213.png" alt="Lange bruine jas">
+				</li>
+			</ul>
+		</section>
 
-        <img src="Images/knipoog-button.png" id="knipoog-button">
+		<section>
+			<h2>Decorate for joyful traditions</h2>
+			<p>Prepare your home for the holidays with warm and joyous details</p>
+			<img src="images/kersthm.jpeg" alt="kersttafel">
+		</section>
 
-        <img src="Images/slaap-button.png" id="slaap-button">
+		<section>
+			<h2>Magazine</h2>
+			<h3>A world of inspiration</h3>
 
-        <button id="springen">Springen</button>
+			<article>
+				<h3>Inside H&M</h3>
+				<h4>Wired X H&M: John Boyega on future-proofing fashion</h4>
+				<p>Read The Story</p>
+				<img src="images/magazinefoto.png" alt="kledingwinkel">
+				<img src="images/witvlak.png" alt="witvlak">
+			</article>
+		</section>
 
-        <p>Kies een achtergrond</p>
+		<section>
 
-        <button id="achtergrond-nacht-button"><img src="Images/achtergrond-nacht.png" alt="achtergrond-nacht"
-                class="achtergrond-nacht"></button>
-        <button id="achtergrond-water-button"><img src="Images/achtergrond-water.png" alt="achtergrond-nacht"
-                class="achtergrond-water"></button>
-        <button id="achtergrond-bos-button"><img src="Images/achtergrond-natuur.png" alt="achtergrond-nacht"
-                class="achtergrond-bos"></button>
-        <button id="geen">Geen achtergrond</button>
+			<article>
+				<h3>Inside H&M</h3>
+				<h4>Co-exist Story</h4>
+				<p>Read The Story</p>
+				<img src="images/magazinefoto2.png" alt="weide">
+				<img src="images/witvlak.png" alt="witvlak">
+			</article>
+		</section>
+	</main>
 
-
-        <p><span id="puntenteller" class="puntenteller">O</span></p>
-
-        <img src="Images/meter-standaard.png" alt="blijheidsmeter" id="blijheidsmeter">
-
-
-        <p class="slepen">Sleep mij!</p>
-        <img src="Images/steak.png" id="steak">
-
-        <p>Sleep mij!</p>
-        <img src="Images/broccoli.png" id="broccoli">
-
-        <audio src="leeuw-brul.wav" id="brul"></audio>
-
-        <!-- bronnen:
-        https://bashooka.com/coding/web-background-animation-effects/
-        https://www.freepik.com/free-vector/flat-nature-background_3436801.htm
-        https://nl.pinterest.com/pin/231583605823941385/ -->
-
-    </main>
-
-    <script src="script.js"></script>
-
+	<script src="scripts/script.js"></script>
 </body>
+
 
 </html>
