@@ -1,0 +1,151 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section {
+    position: absolute;
+    top: 30px;
+    left: 1000px;
+    font-size: 2em;
+}
+
+input {
+    height: 30px;
+    border: 2px solid;
+}
+
+p {
+    width: 500px;
+    font-size: 2em;
+}
+
+p:last-of-type {
+    position: absolute;
+    left: 310px;
+    bottom: 110px;
+}
+
+.slepen {
+    position: absolute;
+    left: 1250px;
+    bottom: 110px;
+}
+
+#tamagotchi {
+    width: 500px;
+    position: absolute;
+    bottom: 0px;
+    right: 400px;
+}
+
+button {
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    padding: 15px;
+    border: white;
+    border-radius: 7px;
+    font-size: 1.5em;
+}
+
+button:last-of-type {
+    width: 232px;
+}
+
+button img {
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+#knipoog-button:hover,
+#slaap-button:hover {
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+#knipoog-button {
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+
+#slaap-button {
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+
+.achtergrond-nacht,
+.achtergrond-water,
+.achtergrond-bos {
+    width: 200px;
+    height: 110px;
+}
+
+body.achtergrond-nacht {
+    background-image: url(Images/achtergrond-nacht.png);
+}
+
+body.achtergrond-water {
+    background-image: url(Images/achtergrond-water.png);
+}
+
+body.achtergrond-bos {
+    background-image: url(Images/achtergrond-natuur.png);
+}
+
+#steak {
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+    width: 150px;
+}
+
+#broccoli {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    width: 150px;
+}
+
+#puntenteller {
+    position: absolute;
+    top: 250px;
+    right: 300px;
+    font-size: 2em;
+    color: black;
+}
+
+#blijheidsmeter {
+    position: absolute;
+    top: 120px;
+    right: 75px;
+    width: 200px;
+}
+
+#springen {
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    background-color: lightgray;
+}
+
+.spring {
+    animation: springen 0.5s forwards;
+}
+
+/*  Met keyframes kan je CSS-stijlen van een element bepalen bij een animatie */
+
+@keyframes springen {
+    0% {
+        transform: translateY(0) rotate(0deg)
+    }
+
+    50% {
+        transform: translateY(-50vh) rotate(180deg)
+    }
+
+    100% {
+        transform: translateY(0) rotate(360deg)
+    }
+}

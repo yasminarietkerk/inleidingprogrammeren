@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <section>
+            <label for="name" id="tekst">Wat is mijn naam?</label>
+            <input type="text" id="name" name="name">
+        </section>
+
+
+        <img src="Images/tamagotchi.png" alt="tamagotchi" id="tamagotchi">
+
+        <img src="Images/knipoog-button.png" id="knipoog-button">
+
+        <img src="Images/slaap-button.png" id="slaap-button">
+
+        <button id="springen">Springen</button>
+
+        <p>Kies een achtergrond</p>
+
+        <button id="achtergrond-nacht-button"><img src="Images/achtergrond-nacht.png" alt="achtergrond-nacht"
+                class="achtergrond-nacht"></button>
+        <button id="achtergrond-water-button"><img src="Images/achtergrond-water.png" alt="achtergrond-nacht"
+                class="achtergrond-water"></button>
+        <button id="achtergrond-bos-button"><img src="Images/achtergrond-natuur.png" alt="achtergrond-nacht"
+                class="achtergrond-bos"></button>
+        <button id="geen">Geen achtergrond</button>
+
+
+        <p><span id="puntenteller" class="puntenteller">O</span></p>
+
+        <img src="Images/meter-standaard.png" alt="blijheidsmeter" id="blijheidsmeter">
+
+
+        <p class="slepen">Sleep mij!</p>
+        <img src="Images/steak.png" id="steak">
+
+        <p>Sleep mij!</p>
+        <img src="Images/broccoli.png" id="broccoli">
+
+        <audio src="leeuw-brul.wav" id="brul"></audio>
+
+        <!-- bronnen:
+        https://bashooka.com/coding/web-background-animation-effects/
+        https://www.freepik.com/free-vector/flat-nature-background_3436801.htm
+        https://nl.pinterest.com/pin/231583605823941385/ -->
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
